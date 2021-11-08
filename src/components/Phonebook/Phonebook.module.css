@@ -1,0 +1,29 @@
+.contact_list {
+  list-style: none;
+  padding: 0;
+}
+.contact_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+}
+.contact_item:hover {
+  border: 2px solid rgb(44, 149, 151);
+  border-radius: 5px;
+  background-color: rgba(95, 158, 160, 0.151);
+}
+.contact_name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact_delate_btn {
+  width: 75px;
+  height: 25px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.contact_delate_btn:hover {
+  color: rgb(201, 49, 49);
+}
